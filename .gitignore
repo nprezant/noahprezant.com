@@ -1,0 +1,8 @@
+# Lock file when running `hugo serve`
+.hugo_build.lock
+
+# Hugo build directory
+public/
+
+# Generated resources file (e.g. images, scss). May want to uncomment later
+resources/_gen/
