@@ -2,9 +2,11 @@
 title: ".dotfiles: a journey"
 date: 2022-10-01T14:39:14-06:00
 draft: true
+tags:
+  - dev
 ---
 
-# Here be dotfiles
+# .dotfiles
 
 Here we describe our journey with dotfiles
 
