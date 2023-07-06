@@ -1,0 +1,39 @@
+$font-stack: Helvetica, sans-serif
+$primary-color: #f7f9fb
+$accent1: #8fc1e3
+$accent2: #5085a5
+$accent3: #31708e
+$accent4: #687864
+$text-color: $accent1
+
+body
+  font: 100% $font-stack
+  color: $text-color
+  margin: 0
+
+nav
+  display: flex
+  justify-content: end
+  align-items: center
+  border-bottom: 1px solid $accent1
+  a
+    padding: 10px
+    text-decoration: none
+    color: $accent1
+    &:hover
+      color: $accent2
+  ul
+    display: flex
+    margin-left: auto
+    list-style-type: none
+    margin: 0
+    padding: 0
+    li
+      padding: 10px
+
+.doc
+  display: flex
+  justify-content: center
+
+.content
+  max-width: 680px

@@ -1,3 +1,11 @@
 <head>
+
+  <!-- Browser title -->
 	<title>{{ .Title }}</title>
+
+  <!-- Theme CSS. Might require extended hugo. -->
+  {{ $res := resources.Get "/sass/style.sass" }}
+  {{ $style := $res | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
 </head>
