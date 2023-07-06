@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+  <h1>posts</h1>
+  {{ range first 10 .Site.RegularPages }}
+    <!-- {{ if eq .Type "posts"}} -->
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <!-- {{ end }} -->
+  {{ end }}
+
+{{ partial "footer.html" . }}
