@@ -9,8 +9,7 @@ draft = true
 
 Here we describe a journey with dotfiles
 
-```console
-curl -Lks <site>
-# a bit of code to get us started
-```
+.. code-block:: console
 
+    curl -Lks <site>
+    # a bit of code to get us started
