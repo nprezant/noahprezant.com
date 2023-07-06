@@ -1,14 +1,13 @@
----
-title: ".dotfiles: a journey"
-date: 2022-10-01T14:39:14-06:00
-draft: true
-tags:
-  - dev
----
++++
+title = "dotfiles"
+date = 2022-10-01T14:39:14-06:00
+draft = true
++++
 
-# .dotfiles
+.dotfiles
+=========
 
-Here we describe our journey with dotfiles
+Here we describe a journey with dotfiles
 
 ```console
 curl -Lks <site>
