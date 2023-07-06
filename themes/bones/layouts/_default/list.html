@@ -1,3 +1,8 @@
-<!DOCTYPE html>
-    <body>list</body>
-</html>
+{{ define "main" }}
+
+  <h1>{{ .Title }}</h1>
+  {{ range .Pages }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ end }}
+
+{{ end }}

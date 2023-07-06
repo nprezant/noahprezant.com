@@ -1,6 +1,4 @@
-{{ partial "header.html" . }}
-
-  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+{{ define "main" }}
 
   <h1>posts</h1>
   {{ range first 10 .Site.RegularPages }}
@@ -9,4 +7,4 @@
     <!-- {{ end }} -->
   {{ end }}
 
-{{ partial "footer.html" . }}
+{{ end }}
