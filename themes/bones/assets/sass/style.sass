@@ -1,10 +1,11 @@
 $font-stack: Helvetica, sans-serif
-$primary-color: #f7f9fb
+$background-color: #ffffff
+$text-color: #333333
 $accent1: #8fc1e3
 $accent2: #5085a5
 $accent3: #31708e
 $accent4: #687864
-$text-color: $accent1
+$accent5: #555555
 
 body
   font: 100% $font-stack
@@ -15,13 +16,13 @@ nav
   display: flex
   justify-content: end
   align-items: center
-  border-bottom: 1px solid $accent1
+  border-bottom: 1px solid $accent2
   a
     padding: 10px
     text-decoration: none
-    color: $accent1
+    color: $accent3
     &:hover
-      color: $accent2
+      color: $text-color
   ul
     display: flex
     margin-left: auto
@@ -37,3 +38,35 @@ nav
 
 .content
   max-width: 680px
+  width: 100%
+  min-width: 0px
+
+div.admonition
+  border-radius: 3px
+  background-color: #eee
+  border: 1px solid #ccc
+  margin-top: 10px
+  margin-bottom: 10px
+  padding: 7px
+  p
+    margin-bottom: 5px
+  >:last-child
+    margin-bottom: 0
+  >p:nth-child(2)
+    display: inline
+  .admonition-title
+    display: inline
+    font-weight: bold
+    &::after
+      content: ":"
+  &::after
+    display: block
+    clear: both
+    content: ""
+  &.note
+    background-color: #eee
+    border: 1px solid #ccc
+  &.tip
+    background-color: #a3ff97
+    border: 1px solid #80c877
+

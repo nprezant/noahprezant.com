@@ -100,6 +100,9 @@ Admonitions may be a nice alternative to footnotes.
      following.
    - It includes this bullet list.
 
+.. tip:: This is a tip admonition.
+   ta da.
+
 Footnotes
 =========
 
