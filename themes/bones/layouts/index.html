@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-  <h1>
+  <h1 class="home-title">
     {{ with .Site.Params.homeTitle }}
     {{ . }}
     {{ else }}
     Hello.
     {{ end }}
   </h1>
-  <h2>
+  <h2 class="home-subtitle">
     {{ with .Site.Params.homeSubtitle }}
     {{ . }}
     {{ else }}

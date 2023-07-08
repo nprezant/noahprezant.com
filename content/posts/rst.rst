@@ -1,5 +1,6 @@
 +++
-title = "reStructuredText"
+title = 'reStructuredText'
+subtitle = 'A sampling'
 date = 2023-07-07
 draft = true
 +++
