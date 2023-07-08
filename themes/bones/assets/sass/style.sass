@@ -27,6 +27,7 @@ nav
       color: $text-color
   ul
     display: flex
+    flex-wrap: wrap
     margin-left: auto
     list-style-type: none
     margin: 0
@@ -39,10 +40,11 @@ nav
   justify-content: center
   padding: 2ex
 
-.content
-  max-width: 680px
-  width: 100%
-  min-width: 0px
+@media screen and (min-width: 60em)
+  .content
+    max-width: 48em
+    width: 100%
+    min-width: 0em
 
 .admonition
   border-radius: 0.3ex
@@ -74,7 +76,8 @@ nav
     border: thin solid #80c877
 
 ul.post-list
-  list-style-type: circle
+  list-style-type: none
+  padding: 0
   a
     font-style: italic
     text-decoration: underline
@@ -88,6 +91,7 @@ ul.post-list
 .title
   font-size: xxx-large
   margin: 0
+  word-break: break-word
 
 .subtitle
   margin: 0
