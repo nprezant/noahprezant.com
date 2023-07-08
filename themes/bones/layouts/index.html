@@ -4,10 +4,8 @@
   <h2>subtitle, abstract, something</h2>
 
   <h1>posts</h1>
-  {{ range first 10 .Site.RegularPages }}
-    <!-- {{ if eq .Type "posts"}} -->
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <!-- {{ end }} -->
-  {{ end }}
+  {{- $recentPosts := (first 6 (where site.RegularPages "Type" "==" "posts")) }}
+
+  {{ partial "postlist" (dict "pages" $recentPosts) }}
 
 {{ end }}

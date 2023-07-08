@@ -1,0 +1,22 @@
+{{- $pages := .pages }}
+
+<ul class="post-list">
+  {{ range $pages }}
+  <li>
+    <p>
+      <a href="{{ .Permalink }}">
+        <span class="post-title">{{ .Title }}</span>
+      </a>
+      <span class="post-day">
+        {{ .Date.Format "Jan 2, 2006"}}
+      </span>
+    </p>
+    <p>
+      {{ .Summary }}
+      {{ if .Truncated }}
+      ...
+      {{ end }}
+    </p>
+  </li>
+  {{ end }}
+</ul>

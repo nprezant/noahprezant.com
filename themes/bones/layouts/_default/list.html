@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-  <h1>{{ lower .Title }}</h1>
-  {{ range .Pages }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  {{ end }}
+<h1>{{ lower .Title }}</h1>
+
+{{ partial "postlist" (dict "pages" .Pages) }}
 
 {{ end }}

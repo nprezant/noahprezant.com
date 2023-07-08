@@ -41,7 +41,7 @@ nav
   width: 100%
   min-width: 0px
 
-div.admonition
+.admonition
   border-radius: 3px
   background-color: #eee
   border: 1px solid #ccc
@@ -69,4 +69,17 @@ div.admonition
   &.tip
     background-color: #a3ff97
     border: 1px solid #80c877
+
+ul.post-list
+  list-style-type: circle
+  a
+    font-style: italic
+    text-decoration: underline
+    color: #004B6B
+    &:hover
+      color: #6D4100
+  .post-day
+    &::before
+      content: " - "
+
 
