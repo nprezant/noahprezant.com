@@ -2,6 +2,7 @@
 title = ".dotfiles"
 date = 2023-06-01T14:39:14-06:00
 draft = true
+tags = ['development']
 +++
 
 My personal configuration.<!--more-->

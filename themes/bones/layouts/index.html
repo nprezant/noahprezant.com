@@ -19,8 +19,6 @@
   {{- $recentPosts := (first 6 (where site.RegularPages "Type" "==" "posts")) }}
   {{ partial "postlist" (dict "pages" $recentPosts) }}
 
-  <div class="see-all">
-    <a href="/posts">all posts</a>
-  </div>
+  {{ partial "links" }}
 
 {{ end }}
