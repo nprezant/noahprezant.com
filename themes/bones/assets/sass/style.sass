@@ -12,15 +12,15 @@ body
   font: 100% $font-stack
   color: $text-color
   margin: 0
-  font-size: 20px
+  font-size: 120%
 
 nav
   display: flex
   justify-content: end
   align-items: center
-  border-bottom: 1px solid $accent2
+  border-bottom: thin solid $accent2
   a
-    padding: 10px
+    padding: 1ex
     text-decoration: none
     color: $accent3
     &:hover
@@ -32,12 +32,12 @@ nav
     margin: 0
     padding: 0
     li
-      padding: 10px
+      padding: 1ex
 
 .doc
   display: flex
   justify-content: center
-  padding: 20px
+  padding: 2ex
 
 .content
   max-width: 680px
@@ -45,14 +45,14 @@ nav
   min-width: 0px
 
 .admonition
-  border-radius: 3px
+  border-radius: 0.3ex
   background-color: #eee
-  border: 1px solid #ccc
-  margin-top: 10px
-  margin-bottom: 10px
-  padding: 7px
+  border: thin solid #ccc
+  margin-top: 1ex
+  margin-bottom: 1ex
+  padding: 0.75ex
   p
-    margin-bottom: 5px
+    margin-bottom: 0.5ex
   >:last-child
     margin-bottom: 0
   >p:nth-child(2)
@@ -68,10 +68,10 @@ nav
     content: ""
   &.note
     background-color: #eee
-    border: 1px solid #ccc
+    border: thin solid #ccc
   &.tip
     background-color: #a3ff97
-    border: 1px solid #80c877
+    border: thin solid #80c877
 
 ul.post-list
   list-style-type: circle
