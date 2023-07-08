@@ -13,6 +13,20 @@ $note-color: #eee
 $note-color-dark: #ccc
 $tip-color: #a3ff97
 $tip-color-dark: #80c877
+$attention-color: rgb(237, 225, 94)
+$attention-color-dark: rgb(233, 213, 2)
+$caution-color: rgb(237, 225, 94)
+$caution-color-dark: rgb(233, 213, 2)
+$danger-color: rgb(237, 123, 94)
+$danger-color-dark: rgb(226, 84, 48)
+$error-color: rgb(233, 143, 120)
+$error-color-dark: rgb(226, 84, 48)
+$hint-color: rgb(119, 198, 235)
+$hint-color-dark: rgb(45, 170, 228)
+$important-color: rgb(119, 222, 133)
+$important-color-dark: rgb(94, 237, 113)
+$warning-color: rgb(237, 225, 94)
+$warning-color-dark: rgb(233, 213, 2)
 
 body
   font: 100% $font-stack
@@ -74,11 +88,32 @@ nav
     clear: both
     content: ""
   &.note
-    background-color: #eee
-    border: thin solid #ccc
+    background-color: $note-color
+    border: thin solid $note-color-dark
   &.tip
-    background-color: #a3ff97
-    border: thin solid #80c877
+    background-color: $tip-color
+    border: thin solid $tip-color-dark
+  &.attention
+    background-color: $attention-color
+    border: thin solid $attention-color-dark
+  &.caution
+    background-color: $caution-color
+    border: thin solid $caution-color-dark
+  &.danger
+    background-color: $danger-color
+    border: thin solid $danger-color-dark
+  &.error
+    background-color: $error-color
+    border: thin solid $error-color-dark
+  &.hint
+    background-color: $hint-color
+    border: thin solid $hint-color-dark
+  &.important
+    background-color: $important-color
+    border: thin solid $important-color-dark
+  &.warning
+    background-color: $warning-color
+    border: thin solid $warning-color-dark
 
 ul.post-list
   list-style-type: none

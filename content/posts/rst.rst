@@ -96,6 +96,20 @@ Admonitions may be a nice alternative to footnotes.
 .. tip:: This is a tip admonition.
    ta da.
 
+.. attention:: attention!
+
+.. caution:: caution
+
+.. danger:: danger
+
+.. error:: error
+
+.. hint:: hint
+
+.. important:: important
+
+.. warning:: warning
+
 Footnotes
 ---------
 
