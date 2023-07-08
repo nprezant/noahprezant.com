@@ -4,7 +4,9 @@
   {{ with .Params.subtitle }}
   <p class="subtitle">{{ . }}</p>
   {{ end }}
+  {{ if not .Date.IsZero }}
   <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
+  {{ end }}
   {{ .Content }}
 
 {{ end }}
