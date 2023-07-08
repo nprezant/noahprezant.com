@@ -21,3 +21,8 @@ theme = "bones"
 # To allow building restructured text
 [security.exec]
   allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^rst2html$']
+
+# Default home page config
+[params]
+  homeTitle = 'Welcome.'
+  homeSubtitle = 'Feel free to poke around.'

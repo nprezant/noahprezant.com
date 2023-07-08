@@ -1,9 +1,21 @@
 {{ define "main" }}
 
-  <h1>intro</h1>
-  <h2>subtitle, abstract, something</h2>
+  <h1>
+    {{ with .Site.Params.homeTitle }}
+    {{ . }}
+    {{ else }}
+    Hello.
+    {{ end }}
+  </h1>
+  <h2>
+    {{ with .Site.Params.homeSubtitle }}
+    {{ . }}
+    {{ else }}
+    The beginnings of a website.
+    {{ end }}
+  </h2>
 
-  <h1>posts</h1>
+  <h1>Recent Posts</h1>
   {{- $recentPosts := (first 6 (where site.RegularPages "Type" "==" "posts")) }}
 
   {{ partial "postlist" (dict "pages" $recentPosts) }}
