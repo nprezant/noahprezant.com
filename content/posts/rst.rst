@@ -20,14 +20,10 @@ Can also view in a list format:
 - there is **strong emphasis**
 - and also ``code samples``
 
-Lists and Quote-Like Blocks
----------------------------
+Lists
+-----
 
 Lists can be marked with dashes or asterisks.
-
-- dash
-- dash
-- dash
 
 * asterisk
 * asterisk
@@ -44,6 +40,9 @@ or autonumbered.
 #. auto number
 #. auto number
 #. auto number
+
+Quote-Like Blocks
+-----------------
 
 term (up to a line of text)
    Definition of the term, which must be indented
@@ -62,6 +61,9 @@ another term
 
    And a final paragraph.
 
+Line Breaks
+-----------
+
 Line blocks can preserve line breaks
 
 | These lines are
@@ -69,7 +71,7 @@ Line blocks can preserve line breaks
 | the source file.
 
 Hyperlinks
-==========
+----------
 
 This is a paragraph that contains `a link`_.
 
@@ -80,7 +82,7 @@ This paragraph contains an `internal link`_.
 .. _internal link: {{< ref "catio" >}}
 
 Admonitions
-===========
+-----------
 
 Admonitions may be a nice alternative to footnotes.
 
@@ -95,7 +97,7 @@ Admonitions may be a nice alternative to footnotes.
    ta da.
 
 Footnotes
-=========
+---------
 
 Autonumbered footnotes are
 possible, like using [#]_ and [#]_.
@@ -103,13 +105,15 @@ possible, like using [#]_ and [#]_.
 .. [#] This is the first one.
 .. [#] This is the second one.
 
+Footnote Labels
+===============
+
 They may be assigned 'autonumber
 labels' - for instance,
 [#fourth]_ and [#third]_.
 
-
-This may be a good way to handle wait
-but why's interesting footnotes.
+.. note:: This may be a good way to handle wait
+    but why's *interesting* footnotes.
 
 .. [#third] a.k.a. third_
 
@@ -123,15 +127,14 @@ empire [#romans]_.
    can be linked back to with romans_
 
 Citations
-=========
+---------
 
 Citation references, like [CIT2002]_.
 Note that citations may get
 rearranged, e.g., to the bottom of
 the "page".
 
-This may be a good way
-to handle wait but why's boring footnotes.
+.. note:: This may be a good way to handle wait but why's boring footnotes.
 
 .. [CIT2002] A citation
    (as often used in journals).

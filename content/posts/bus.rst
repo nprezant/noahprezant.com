@@ -5,4 +5,6 @@ draft = true
 +++
 
 After much deliberation, we bought a school bus.
-Was it perfect? Oh no. But was it ours? Also no. Not yet.
+Was it perfect? Oh no. But was it ours? Also no.
+
+\...Not yet.

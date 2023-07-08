@@ -2,11 +2,17 @@ $font-stack: Helvetica, sans-serif
 $background-color: #ffffff
 $text-color: #333333
 $text-color-light: rgb(117, 117, 117)
-$accent1: #8fc1e3
+$accent1: #004B6B
 $accent2: #5085a5
 $accent3: #31708e
 $accent4: #687864
-$accent5: #555555
+$accent5: #6D4100
+
+// admonition theming
+$note-color: #eee
+$note-color-dark: #ccc
+$tip-color: #a3ff97
+$tip-color-dark: #80c877
 
 body
   font: 100% $font-stack
@@ -19,12 +25,11 @@ nav
   justify-content: end
   align-items: center
   border-bottom: thin solid $accent2
+  font-style: normal
   a
     padding: 1ex
     text-decoration: none
-    color: $accent3
-    &:hover
-      color: $text-color
+    font-style: inherit // most links are italicized
   ul
     display: flex
     flex-wrap: wrap
@@ -78,15 +83,16 @@ nav
 ul.post-list
   list-style-type: none
   padding: 0
-  a
-    font-style: italic
-    text-decoration: underline
-    color: #004B6B
-    &:hover
-      color: #6D4100
   .post-day
     &::before
       content: " - "
+
+a
+  font-style: italic
+  text-decoration: underline
+  color: $accent1
+  &:hover
+    color: $accent5
 
 .title
   font-size: xxx-large
@@ -108,3 +114,7 @@ ul.post-list
 .home-subtitle
   font-size: larger
   color: $text-color-light
+
+.see-all
+  display: flex
+  justify-content: center
