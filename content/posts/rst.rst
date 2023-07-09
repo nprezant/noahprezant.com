@@ -30,17 +30,11 @@ Lists can be marked with dashes or asterisks.
 * asterisk
 * asterisk
 
-Numbered lists can be numbered manually...
+Numbered lists can be auto numbered or numbered manually.
 
-1. this list
-2. is manually
-3. numbered
-
-or autonumbered.
-
-#. auto number
-#. auto number
-#. auto number
+#. this list
+#. is auto-
+#. numbered
 
 Quote-Like Blocks
 -----------------
