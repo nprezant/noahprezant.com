@@ -1,5 +1,6 @@
 $font-stack: Helvetica, sans-serif
 $background-color: #ffffff
+$background-color-dark: rgb(242, 242, 242)
 $text-color: #333333
 $text-color-light: rgb(117, 117, 117)
 $accent1: #004B6B
@@ -67,6 +68,9 @@ nav
     max-width: 48em
     width: 100%
     min-width: 0em
+
+.document
+  margin-bottom: 4ex
 
 .admonition
   border-radius: 0.3ex
@@ -176,3 +180,25 @@ a
   padding-bottom: 0.1ex
   margin-left: 1ex
   transform: translate(0px, -1ex)
+
+.taglist
+  list-style-type: none
+  margin: 0
+  padding: 0
+  display: flex
+  flex-wrap: wrap
+
+.tag
+  display: block
+  padding: 1ex 2ex
+  margin-top: 1ex
+  margin-left: 0.5ex
+  white-space: nowrap
+  border-radius: 100ex
+  background-color: $background-color-dark
+  border: thin solid $background-color-dark
+  text-decoration: none
+  font-style: inherit // most links are italicized
+  color: inherit
+
+

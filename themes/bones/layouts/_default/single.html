@@ -8,5 +8,6 @@
   <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
   {{ end }}
   {{ .Content }}
+  {{ partial "taglist" . }}
 
 {{ end }}
