@@ -6,7 +6,7 @@ theme = "bones"
 # https://gohugo.io/content-management/menus/
 [menu]
 [[menu.main]]
-  name = 'home'
+  name = 'noah prezant'
   pageRef = '/'
   weight = 10
 [[menu.main]]
@@ -26,3 +26,7 @@ theme = "bones"
 [params]
   homeTitle = 'Welcome.'
   homeSubtitle = 'Feel free to poke around.'
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
