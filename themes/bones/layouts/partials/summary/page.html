@@ -8,7 +8,7 @@
   </span>
   {{ end }}
 </p>
-{{- $summaryText := .Summary | plainify -}}
+{{- $summaryText := .Summary | plainify | htmlUnescape -}}
 {{ if $summaryText }}
   <p class="summary-text">
     {{ $summaryText }}
