@@ -1,4 +1,4 @@
-<p>
+<p class="summary-header">
   <a href="{{ .Permalink }}">
     <span class="summary-title">{{ .Title }}</span>
   </a>
@@ -8,9 +8,10 @@
   </span>
   {{ end }}
 </p>
-<p>
-  {{ .Summary }}
-  {{ if .Truncated }}
-  {{/* could put a 'read more' here */}}
-  {{ end }}
-</p>
+{{- $summaryText := .Summary | plainify -}}
+{{ if $summaryText }}
+  <p class="summary-text">
+    {{ $summaryText }}
+    {{/* could put a 'read more' here by checking ``if .Truncated`` */}}
+  </p>
+{{ end }}
