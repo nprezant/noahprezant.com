@@ -1,0 +1,19 @@
+{{/*
+  Summary of a single page, with type checking.
+
+  Most standard pages (with a backing .rst content file)
+  are of kind 'page'. Other pages exist though, such as
+  'taxonomy' (tag, category, series), or 'term' (tag/development,
+  tag/woodworking).
+
+  Ref: https://gohugo.io/templates/section-templates/#page-kinds
+*/}}
+
+{{ if eq .Kind "page" }}
+  {{ partial "summary/page" . }}
+{{ else if eq .Kind "term" }}
+  {{ partial "summary/term" . }}
+{{ else }}
+  {{ partial "summary/page" . }}
+{{ end }}
+

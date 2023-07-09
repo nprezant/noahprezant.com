@@ -115,10 +115,10 @@ nav
     background-color: $warning-color
     border: thin solid $warning-color-dark
 
-ul.post-list
+ul.pagelist
   list-style-type: none
   padding: 0
-  .post-day
+  .summary-day
     &::before
       content: " - "
 
@@ -159,3 +159,17 @@ a
   a
     padding: 1ex
 
+.count
+  font-style: normal
+  color: $text-color
+  border: thin solid $accent1
+  border-radius: 50%
+  text-align: center
+  display: inline-block
+  min-width: 2.2ex
+  font-size: small
+  padding: 0.2ex
+  padding-top: 0.3ex
+  padding-bottom: 0.1ex
+  margin-left: 1ex
+  transform: translate(0px, -1ex)

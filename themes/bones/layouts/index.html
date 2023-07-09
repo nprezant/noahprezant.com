@@ -17,7 +17,7 @@
 
   <h1>Recent Posts</h1>
   {{- $recentPosts := (first 6 (where site.RegularPages "Type" "==" "posts")) }}
-  {{ partial "postlist" (dict "pages" $recentPosts) }}
+  {{ partial "pagelist" (dict "pages" $recentPosts) }}
 
   {{ partial "links" }}
 

@@ -1,0 +1,9 @@
+{{- $pages := .pages }}
+
+<ul class="pagelist">
+  {{ range $pages }}
+  <li>
+    {{ partial "summary" . }}
+  </li>
+  {{ end }}
+</ul>

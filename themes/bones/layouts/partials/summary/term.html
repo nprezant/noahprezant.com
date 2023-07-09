@@ -1,0 +1,10 @@
+<p>
+  <a href="{{ .Permalink }}">
+    <span class="summary-title">{{ .Title }}</span>
+    <span class="count">{{ len .Pages }}</span>
+  </a>
+
+  {{ if eq .Type "tags" }}
+  {{/*  maybe something different for tags  */}}
+  {{ end }}
+</p>

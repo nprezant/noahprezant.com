@@ -1,0 +1,16 @@
+<p>
+  <a href="{{ .Permalink }}">
+    <span class="summary-title">{{ .Title }}</span>
+  </a>
+  {{ if not .Date.IsZero }}
+  <span class="summary-day">
+    {{ .Date.Format "Jan 2, 2006"}}
+  </span>
+  {{ end }}
+</p>
+<p>
+  {{ .Summary }}
+  {{ if .Truncated }}
+  {{/* could put a 'read more' here */}}
+  {{ end }}
+</p>
