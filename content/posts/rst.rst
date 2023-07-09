@@ -156,3 +156,14 @@ Given a citation like [this]_, one
 can also refer to it like this_.
 
 .. [this] here. 
+
+Raw HTML
+--------
+
+We can also include raw html if we want.
+
+.. raw:: html
+
+  <!-- unsplash needs credits... -->
+  <!-- <img src="https://source.unsplash.com/gi18Ad84ndQ" alt="" width="300" > -->
+  <img src="https://i.imgur.com/sFq0wAC.jpeg" alt="" width="300" >
