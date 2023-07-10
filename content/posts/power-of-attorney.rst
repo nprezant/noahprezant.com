@@ -2,7 +2,7 @@
 title = "Power of Attorney"
 subtitle = "An armchair lawyer's take on some NC legislation"
 date = 2023-07-06
-draft = true
+draft = false
 tags = ['law']
 +++
 

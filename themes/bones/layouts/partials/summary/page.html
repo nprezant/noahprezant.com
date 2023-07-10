@@ -8,7 +8,19 @@
   </span>
   {{ end }}
 </p>
-{{- $summaryText := .Summary | plainify | htmlUnescape -}}
+
+{{/*  Defaults to the subtitle if available. Otherwise generates summary text. */}}
+{{ $summaryText := "" }}
+
+{{ with .Params.subtitle }}
+  {{/*  Adds a period at the end if necessary  */}}
+  {{ $summaryText = cond (hasSuffix . ".") . (. | printf "%s.") }}
+{{ end }}
+
+{{ if not $summaryText }}
+  {{- $summaryText := .Summary | plainify | htmlUnescape -}}
+{{ end }}
+
 {{ if $summaryText }}
   <p class="summary-text">
     {{ $summaryText }}
