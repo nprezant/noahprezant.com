@@ -6,47 +6,53 @@ draft = true
 tags = ['law']
 +++
 
-.. note:: I am not a lawyer; this is not legal advice;
+.. warning:: I am not a lawyer; this is not legal advice;
   please do not interpret this as legal advice.
 
-I was recently told that a certain seller of an item I had purchased in NC would
-not accept a power of attorney, and that I had no option but to fly across the
-country to pick the item up in person.
+I recently purchased an vehicle on a public auction site, and was told that to
+pick it up I had no option but to be there in person to sign the title and bill
+of sale. Ordinarily I wouldn't mind, but it would have required flying and the
+seller *also* required that I pick it up in less that 2 weeks. I also have
+family members in the area who were willing to pick up the vehicle on my behalf.
 
-This was disappointing to hear, because one of the main draws of this particular
-item was it's proximity to family members that could go and pick it up on my
-behalf.
+I had heard that people will use "power of attorney" to delegate their authority
+on specific (or general) legal matters -- things like running a business,
+managing real property (like land), or managing tangible property (like a car)
 
 I would have let the whole thing drop and just gotten a plane ticket, but the
 seller wouldn't give a *reason* for why they would reject the power of attorney,
 so I had to look into it myself.
 
-.. note:: Also the seller hung up on me when I asked about it, which probably
-  contributed.
+.. note:: Also the seller hung up on me when I asked about it, providing
+  additional motivation to look into it myself.
 
-The item in question was a vehicle, and by the state of North Carolina (and most
-states) the buyer is required to sign the Bill of Sale and the Title. If you are
-selling to a family member, it can be sufficient for the seller to sign the Bill
-of Sale, then mail the forms and the "buyer" will sign them on their end. But
-for a public auction site, they'll want the buyer and seller to both sign the
-forms *before* handing over the vehicle, and that is easiest to do in person.
+.. note:: North Carolina (and most states) requires that the buyer and seller
+  sign the Bill of Sale and the Title when purchasing a vehicle.
+  
+  You don't have to sign at the same time. For example, when selling to a friend
+  or family member, the seller could sign the Bill of Sale, mail the forms, and
+  the buyer will sign them on their end.
+  
+  In this case it makes sense they wouldn't want to do that -- the public
+  auction seller and I don't know each other, and they'll want both signatures
+  *before* handing over the vehicle. That is easiest to do in person.
 
-So: can a person with sufficient power of attorney sign for this forms and pick
-up a vehicle won on a public auction site on my behalf?
+So: can I give a person sufficient power of attorney to sign these forms and
+pick up the public auction vehicle on my behalf?
 
 
 What is power of attorney?
---------------------------
+##########################
 
 Generally speaking, power of attorney allows one person to act, legally, on
 another person's behalf. This may be used to allow a trusted family member to
 manage stateside affairs for a person overseas in the military. It may also be
-to allow a trusted indivual to manage the estate and other property of an
+to allow a trusted indivual to manage the estate and/or other property of an
 elderly person who no longer wishes to do that themselves.
 
 
 Important terms
----------------
+###############
 
 - Agent: the person *with* power of attorney. They may act on behalf of the
   **principal**.
@@ -54,7 +60,7 @@ Important terms
 
 
 Purchasing a vehicle
---------------------
+####################
 
 A sanity check: do people use power of attorney to buy vehicles?
 It appears that they do! For example, nclamp.gov notes:
@@ -72,13 +78,13 @@ It appears that they do! For example, nclamp.gov notes:
 
 
 My ability to execute (create, authorize) a power of attorney
--------------------------------------------------------------
+#############################################################
 
-Okay, so it seems like it should be possible. Let's dive into the legislation.
-NC power of attorney law is governed by the North Carolina Uniform Power of
-Attorney Act (`NCUPOA`_). Several sections in this document are of interest to us.
-The first is section 1-105, which describes what is necesary to create a valid
-power of attorney.
+Okay, so it should be possible. Let's dive into the legislation. NC power of
+attorney law is governed by the **North Carolina Uniform Power of Attorney Act**
+(`NCUPOA`_) enacted in 2018. Several sections in this document are of interest
+to us. The first is section 1-105, which describes what is necesary to create a
+valid power of attorney.
 
 .. _NCUPOA: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByChapter/Chapter_32C.pdf
 
@@ -91,7 +97,6 @@ power of attorney.
 
 In other words, to create a power of attorney, I need to write it, sign it, and
 have it notarized. Sounds do-able.
-
 
 Meaning and effect
 ==================
@@ -120,7 +125,7 @@ attorney document.
 
 
 Liability for refusal to accept a power of attorney
-----------------------------------------------------
+###################################################
 
 Section 1-120 of the North Carolina Uniform Power of Attorney Act provides a
 list of legitimate grounds for refusal, but I do not believe any of those would
@@ -146,9 +151,11 @@ In addition, illegitimate refusal is specifically covered:
 
 
 Conclusion
-----------
+##########
 
 So, it appears that a person able to use power of attorney to explicitly grant another person permission to act on their behalf.
 While there are some caveats in the legislatino regarding things like health care decisions, it seems well suited
 to handle buying a vehicle.
 
+.. warning:: I am not a lawyer; this is not legal advice;
+  please do not interpret this as legal advice.
