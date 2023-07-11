@@ -24,7 +24,7 @@ seller wouldn't give a *reason* for why they would reject the power of attorney,
 so I had to look into it myself.
 
 .. note:: Also the seller hung up on me when I asked about it, providing
-  additional motivation to look into it myself.
+  additional motivation to look into it.
 
 .. note:: North Carolina (and most states) requires that the buyer and seller
   sign the Bill of Sale and the Title when purchasing a vehicle.
@@ -154,7 +154,7 @@ Conclusion
 ##########
 
 So, it appears that a person able to use power of attorney to explicitly grant another person permission to act on their behalf.
-While there are some caveats in the legislatino regarding things like health care decisions, it seems well suited
+While there are some caveats in the legislation regarding things like health care decisions, it seems well suited
 to handle buying a vehicle.
 
 .. warning:: I am not a lawyer; this is not legal advice;
