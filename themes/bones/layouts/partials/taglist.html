@@ -1,8 +1,0 @@
-{{ $taxonomy := "tags" }}
-{{ with .GetTerms $taxonomy }}
-  <ul class="taglist">
-    {{ range . }}
-      <li><a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-  </ul>
-{{ end }}
