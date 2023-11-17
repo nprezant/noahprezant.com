@@ -1,0 +1,193 @@
++++
+title = 'This is Asciidoc'
+subtitle = 'A sampling'
+date = 2023-07-07
+draft = true
+tags = ['internal', 'dev']
++++
+
+This page serves as an example / test page for what
+asciidoc looks like on the website.
+
+We like to have fun.
+
+== The definitive guide
+
+Please see
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[here]
+for the definitive asciidoc guide. Use the search for specifics
+on any markup type.
+
+== Text formatting
+
+.Per word formatting
+It has *strong* significance to me.
+I _cannot_ stress this enough.
+Type `OK` to accept.
+That *_really_* has to go.
+
+Can't pick one? Let's use them `*_all_*`.
+
+.Per character formatting
+**C**reate, **R**ead, **U**pdate, and **D**elete (CRUD)
+
+That's fan__freakin__tastic!
+
+Don't pass generic ``Object``s to methods that accept ``String``s!
+
+It was Beatle**__mania__**!
+
+== Links
+
+External https://domain.invalid/[link].
+
+Internal relative link:about.html[link].
+
+== Cross References
+
+See <<Cross References>>, boom.
+
+== Inter-document cross references
+
+Refer to xref:document-b.adoc#section-b[Section B of Document B] for more information.
+
+== Sidebar
+
+.Optional Title
+****
+Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.
+****
+
+****
+Title not required.
+****
+
+== Admonitions
+
+Admonitions may be a nice alternative to footnotes.
+
+NOTE: This is a
+      note admonition.
+
+TIP: This is a tip admonition.
+
+CAUTION: caution
+
+IMPORTANT: important
+
+WARNING: warning
+
+== Admonition blocks
+
+[NOTE]
+====
+An admonition block may contain complex content.
+
+.Consider a list
+- one
+- two
+- three
+
+Another paragraph.
+====
+
+== Footnotes
+
+A statement.footnote:[Clarification about this statement.]
+
+A bold statement!footnote:disclaimer[Opinions are my own.]
+
+Another bold statement.footnote:disclaimer[]
+
+== Raw HTML
+
+We can also include raw html if we want.
+
+++++
+<!-- unsplash needs credits... -->
+<img src="https://source.unsplash.com/gi18Ad84ndQ" alt="" width="300" >
+++++
+
+== Blockquote
+
+[quote,Monty Python and the Holy Grail]
+____
+Dennis: Come and see the violence inherent in the system. Help! Help! I'm being repressed!
+
+King Arthur: Bloody peasant!
+
+Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That's what I'm on about! Did you see him repressing me? You saw him, Didn't you?
+____
+
+[quote,Abraham Lincoln,Address delivered at the dedication of the Cemetery at Gettysburg]
+____
+Four score and seven years ago our fathers brought forth
+on this continent a new nation...
+____
+
+[quote,Charles Lutwidge Dodgson,'Mathematician and author, also known as https://en.wikipedia.org/wiki/Lewis_Carroll[Lewis Carroll]']
+____
+If you don't know where you are going, any road will get you there.
+____
+
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
+-- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11
+
+== Lists
+
+.Unordered. Can use list styles to change marker type.
+* item
+** nested
+*** deeper
+
+.Ordered.
+. this list
+. is auto-
+. numbered
+
+.Checklist
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list item
+
+== Tables
+
+.Table Title
+|===
+|Column 1, Header Row |Column 2, Header Row
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+== Terms
+
+term:: Definition of the term, which must be indented
+
+next term::
+Description.
+
+another term::
+A long paragraph description of the term can span
+multiple lines in the source code. To make a new paragraph,
+a blank line must be left.
++
+So this is a middle paragraph.
++
+And a final paragraph.
+
+== Breaks
+
+Before thematic pause
+
+'''
+
+after
+
+

@@ -1,7 +1,7 @@
 baseURL = 'http://noahprezant.com/'
 languageCode = 'en-us'
 title = "Noah Prezant"
-theme = "bones"
+theme = "med"
 
 # https://gohugo.io/content-management/menus/
 [menu]
@@ -20,7 +20,7 @@ theme = "bones"
 
 # To allow building restructured text
 [security.exec]
-  allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^rst2html$']
+  allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^rst2html$', '^asciidoctor$']
 
 # Default home page config
 [params]

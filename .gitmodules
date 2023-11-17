@@ -1,0 +1,3 @@
+[submodule "themes/med"]
+	path = themes/med
+	url = https://github.com/nprezant/hugo-med
