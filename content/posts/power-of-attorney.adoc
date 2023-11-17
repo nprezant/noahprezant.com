@@ -1,6 +1,6 @@
 +++
 title = "Power of Attorney"
-subtitle = "An armchair lawyer's take on some NC legislation"
+subtitle = "A hobbiest's take on some NC legislation"
 date = 2023-07-06
 draft = false
 tags = ['law']
@@ -19,9 +19,9 @@ I had heard that people will use "power of attorney" to delegate their authority
 on specific (or general) legal matters -- things like running a business,
 managing real property (like land), or managing tangible property (like a car)
 
-I would have let the whole thing drop and just gotten a plane ticket, but the
-seller wouldn't give a _reason_ for why they would reject the power of attorney,
-so I had to look into it myself.
+This seemed like a hassle, and I would have let it all drop and just gotten on a plane,
+but while the seller said they wouldn't accept a power of attorney they also wouldn't
+give a _reason_ for it. Hence, this post.
 
 [NOTE]
 ====
@@ -49,13 +49,12 @@ manage stateside affairs for a person overseas in the military. It may also be
 to allow a trusted indivual to manage the estate and/or other property of an
 elderly person who no longer wishes to do that themselves.
 
-
 == Important terms
 
-- Agent: the person _with_ power of attorney. They may act on behalf of the
+Agent:: the person _with_ power of attorney. They may act on behalf of the
   *principal*.
-- Principal: the person _giving_ power of attorney.
 
+Principal:: the person _giving_ power of attorney.
 
 == Purchasing a vehicle
 
@@ -68,6 +67,7 @@ You can use a special power of attorney to allow someone to do almost all
 legal actions that you can do yourself. Thus, for example, you could prepare
 a special power of attorney that lets your designated agent:
 
+[.tight]
 1. Buy or sell _real_ estate;
 2. *Purchase a car* [emphasis mine] or sell your furniture; [...]
 ____
@@ -132,16 +132,18 @@ apply here.
 
 [quote]
 ____
+[.tight]
+--
 § 32C-1-120. Liability for refusal to accept acknowledged power of attorney.
 
-\[...]
+{empty}[...]
 
 (c) A person is not required to accept an acknowledged power of attorney if any of the
 following circumstances exist:
 
 - [...]
-
 - [a list of circumstances that, to the best of my knowledge, do not apply here, regardless of ACS precedent or policy]
+--
 ____
 
 === In addition, illegitimate refusal is specifically covered:
